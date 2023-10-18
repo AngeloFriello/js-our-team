@@ -21,5 +21,25 @@ const utenti = [
     }
 ]
 
-console.log(utenti)
 
+
+const gridDOMElement = document.querySelector('.grid');
+
+
+for (let i = 0; i < utenti.length; i++){
+    n = i + 1;
+
+    gridDOMElement.innerHTML += ` 
+        <div class="card">
+            <div class="foto">
+                ${utenti[i].foto}
+            </div>
+            <p class="nome">
+                ${utenti[i].nome}
+            </p>
+            <p class="ruolo">
+                ${utenti[i].ruolo}
+            </p>
+        </div>`;
+
+}
