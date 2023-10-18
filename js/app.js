@@ -1,33 +1,33 @@
 const utenti = [
     {
-        nome: 'Antonio',
-        ruolo: 'WebDeveloper',
-        foto: './img/angela-caroll-chief-editor.jpg',
+        name: 'Antonio',
+        rule: 'WebDeveloper',
+        photo: './img/angela-caroll-chief-editor.jpg',
     },
     {
-        nome: 'francesco',
-        ruolo: 'stuccatore',
-        foto: './img/angela-lopez-social-media-manager.jpg',
+        name: 'francesco',
+        rule: 'stuccatore',
+        photo: './img/angela-lopez-social-media-manager.jpg',
     },
     {
-        nome: 'michele',
-        ruolo: 'pittore',
-        foto: './img/barbara-ramos-graphic-designer.jpg',
+        name: 'michele',
+        rule: 'pittore',
+        photo: './img/barbara-ramos-graphic-designer.jpg',
     },
     {
-        nome: 'gennaro',
-        ruolo: 'muratore',
-        foto: './img/scott-estrada-developer.jpg',
+        name: 'gennaro',
+        rule: 'muratore',
+        photo: './img/scott-estrada-developer.jpg',
     },
     {
-        nome: 'mike',
-        ruolo: 'ladro',
-        foto: './img/walter-gordon-office-manager.jpg',
+        name: 'mike',
+        rule: 'ladro',
+        photo: './img/walter-gordon-office-manager.jpg',
     },
     {
-        nome: 'michela',
-        ruolo: 'saltimbanco',
-        foto: './img/wayne-barnett-founder-ceo.jpg',
+        name: 'michela',
+        rule: 'saltimbanco',
+        photo: './img/wayne-barnett-founder-ceo.jpg',
     }
 ]
 
@@ -37,18 +37,17 @@ const gridDOMElement = document.querySelector('.grid');
 
 
 for (let i = 0; i < utenti.length; i++){
-    n = i + 1;
 
     gridDOMElement.innerHTML += ` 
         <div class="card">
-            <div class="foto">
-                <img src="${utenti[i].foto}" alt="">
+            <div class="photo">
+                <img src="${utenti[i].photo}" alt="">
             </div>
-            <p class="nome">
-                ${utenti[i].nome}
+            <p class="name">
+                ${utenti[i].name}
             </p>
-            <p class="ruolo">
-                ${utenti[i].ruolo}
+            <p class="rule">
+                ${utenti[i].rule}
             </p>
         </div>`;
 
