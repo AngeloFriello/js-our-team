@@ -39,9 +39,27 @@ consol.log(utenti)
 - MILESTONE 2:
 - Stampare le stesse informazioni su DOM sottoforma di stringhe
 
+for (let i = 0; i < utenti.length; i++){
+    n = i + 1;
+
+    gridDOMElement.innerHTML += ` 
+        <div class="card">
+            <div class="foto">
+                ${utenti[i].foto}
+            </div>
+            <p class="nome">
+                ${utenti[i].nome}
+            </p>
+            <p class="ruolo">
+                ${utenti[i].ruolo}
+            </p>
+        </div>`;
+
+}
 
 - BONUS 1:
 - Trasformare la stringa foto in una immagine effettiva
+
+
 - BONUS 2:
 - Organizzare i singoli membri in card/schede (vedi screenshot)
-- 

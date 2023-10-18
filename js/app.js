@@ -18,6 +18,16 @@ const utenti = [
         nome: 'gennaro',
         ruolo: 'muratore',
         foto: './img/agela-caroll-chief-editor.jpg',
+    },
+    {
+        nome: 'mike',
+        ruolo: 'ladro',
+        foto: './img/agela-caroll-chief-editor.jpg',
+    },
+    {
+        nome: 'michela',
+        ruolo: 'saltimbanco',
+        foto: './img/agela-caroll-chief-editor.jpg',
     }
 ]
 
