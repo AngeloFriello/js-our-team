@@ -2,32 +2,32 @@ const utenti = [
     {
         nome: 'Antonio',
         ruolo: 'WebDeveloper',
-        foto: './img/agela-caroll-chief-editor.jpg',
+        foto: './img/angela-caroll-chief-editor.jpg',
     },
     {
         nome: 'francesco',
         ruolo: 'stuccatore',
-        foto: './img/agela-caroll-chief-editor.jpg',
+        foto: './img/angela-lopez-social-media-manager.jpg',
     },
     {
         nome: 'michele',
         ruolo: 'pittore',
-        foto: './img/agela-caroll-chief-editor.jpg',
+        foto: './img/barbara-ramos-graphic-designer.jpg',
     },
     {
         nome: 'gennaro',
         ruolo: 'muratore',
-        foto: './img/agela-caroll-chief-editor.jpg',
+        foto: './img/scott-estrada-developer.jpg',
     },
     {
         nome: 'mike',
         ruolo: 'ladro',
-        foto: './img/agela-caroll-chief-editor.jpg',
+        foto: './img/walter-gordon-office-manager.jpg',
     },
     {
         nome: 'michela',
         ruolo: 'saltimbanco',
-        foto: './img/agela-caroll-chief-editor.jpg',
+        foto: './img/wayne-barnett-founder-ceo.jpg',
     }
 ]
 
@@ -42,7 +42,7 @@ for (let i = 0; i < utenti.length; i++){
     gridDOMElement.innerHTML += ` 
         <div class="card">
             <div class="foto">
-                ${utenti[i].foto}
+                <img src="${utenti[i].foto}" alt="">
             </div>
             <p class="nome">
                 ${utenti[i].nome}

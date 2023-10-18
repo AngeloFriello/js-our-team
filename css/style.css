@@ -24,3 +24,7 @@ header{
     padding: 10px;
     margin-bottom: 50px;
 }
+
+img{
+    max-width: 100%;
+}
